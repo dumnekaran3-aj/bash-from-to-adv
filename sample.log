@@ -1,0 +1,7 @@
+2026-09-09 10:00:01 INFO User login successful for karan
+2026-09-09 10:00:05 ERROR Failed login attempt for admin
+2026-09-09 10:00:12 INFO User login successful for aryan
+2026-09-09 10:00:15 ERROR Failed login attempt for admin
+2026-09-09 10:00:20 WARNING Rate limit approaching for IP 192.168.1.5
+2026-09-09 10:00:25 ERROR Database connection timeout
+2026-09-09 10:00:30 INFO User logout for karan
