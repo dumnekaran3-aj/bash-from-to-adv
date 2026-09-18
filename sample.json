@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "user": {
+    "name": "Karan",
+    "role": "admin",
+    "active": true
+  },
+  "posts": [
+    {"postid": 1, "title": "First Post"},
+    {"postid": 2, "title": "Second Post"},
+    {"postid": 3, "title": "Third Post"}
+  ]
+}
