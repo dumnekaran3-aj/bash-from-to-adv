@@ -2,7 +2,7 @@
 
 read -p "eneter a token here ..." test_token
 
-ttt="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOTY4Y2NjYTBhNWZiZDJiMDYzYmE2NCIsImlhdCI6MTc4OTcyOTg4MCwiZXhwIjoxNzkwMzM0NjgwfQ.IXTDK8U2-bwbDJQxaJOjbmSr3cap_7039ooEal52DbE"
+ttt="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30"
 
 
 keywords=("balance" "password" "email" "secret_key" "secret" "token" "apiKey" "private" "admin" "role" "author" "public")
