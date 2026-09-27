@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sensitive_keywords=("password" "secret" "token" "apiKey" "private")
-local_url="http://localhost:8000"
+local_url="https://varitywire.com"
 
 endpoints=("/api/auth/me" "/api/health" "/api/admin" "/api/admin/dashboard" "/api/posts?page=1" "/api/config" "/api/users" "/fake/end" "/about" "/dashboard")
 

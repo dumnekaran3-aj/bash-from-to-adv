@@ -21,7 +21,7 @@ check_port() {
 
 
 
-hosts_list=("172.20.37.198" "127.0.0.1" "localhost")
+hosts_list=("https://varitywire.com")
 
 check_ports=(21 443 8080 5000 80 8000)
 

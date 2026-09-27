@@ -1,6 +1,6 @@
 #!/bin/bash
 
-base_url="http://localhost:8000"
+base_url="https://varitywire.com"
 
 endpoints=("/api/health" "/api/users" "/api/admin" "/api/login" "/api/admin/dashboard" "/random-fake-route")
 
