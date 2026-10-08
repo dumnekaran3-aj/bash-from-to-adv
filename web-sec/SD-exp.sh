@@ -8,7 +8,7 @@ sensitive_keys=("X-Powered-By" "Strict-Transport-Security" "X-Content-Type-Optio
 
 sensitive_keywords=("admin" "secreate" "API-key" "balance" "apikey")
 
-endpoint=("/api/config" "/api/health" "/api/users" "/api/dashboard")
+endpoint=("/api/config" "/api/health" "/api/users" "/api/dashboard" "api/user/profile/" "/api/posts" "/api/auth/me" "/api/comments" "/api/auth/signin" )
 
 chack_header(){
 local url=$1
@@ -70,7 +70,7 @@ for ep in "${endpoint[@]}"; do
 
        if grep -qi "$i" <<< "$body"; then
             echo "sensitive data leaking at $ep :: $i"
-
+            echo "finded body :: $body"
 
 
         fi
@@ -80,6 +80,19 @@ done
 }
 
 #over_fecth "$base_url"
+
+bodydata(){
+
+local url=$1
+
+for end in "${endpoint[@]}"; do
+  
+body=$(curl -s "${url}${end}")
+echo "$body"
+done
+
+
+}
 
 
 
@@ -98,11 +111,14 @@ echo "--------------over-fecthing-data-----------------"
                     over_fecth "${base_url}"
 
 echo "-------------------------------------------------"
+echo "----------------url body res---------------------"
+                     bodydata "${base_url}" 
 
 }
 
 
 cleaning_data
+
 
 
 
