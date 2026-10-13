@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admission Submitted</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+            margin: 0;
+
+            font-family: Arial, sans-serif;
+
+            background: #f4f7fb;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            min-height: 100vh;
+        }
+
+        .box {
+
+            width: 90%;
+
+            max-width: 500px;
+
+            background: white;
+
+            padding: 40px;
+
+            border-radius: 15px;
+
+            text-align: center;
+
+            box-shadow:
+                0 5px 25px
+                rgba(0,0,0,0.12);
+        }
+
+        .icon {
+
+            width: 75px;
+
+            height: 75px;
+
+            margin: auto;
+
+            background: #198754;
+
+            color: white;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            font-size: 40px;
+
+            margin-bottom: 20px;
+        }
+
+        h1 {
+
+            color: #198754;
+
+            margin-bottom: 10px;
+        }
+
+        p {
+
+            color: #555;
+
+            font-size: 17px;
+        }
+
+        .admission-id {
+
+            background: #f1f5f9;
+
+            padding: 12px;
+
+            border-radius: 8px;
+
+            margin-top: 20px;
+
+            font-weight: bold;
+
+            color: #123c69;
+        }
+
+        .btn {
+
+            display: inline-block;
+
+            margin-top: 25px;
+
+            padding: 12px 25px;
+
+            background: #123c69;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 7px;
+        }
+
+        .btn:hover {
+
+            background: #0b2f55;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="box">
+
+
+    <div class="icon">
+
+        ✓
+
+    </div>
+
+
+    <h1>
+
+        Thank You!
+
+    </h1>
+
+
+    <p>
+
+        Thank you for submitting your details successfully.
+
+    </p>
+
+
+    
+
+    <a
+        class="btn"
+        href="index.php"
+    >
+
+        Back to Home
+
+    </a>
+
+
+</div>
+
+
+</body>
+
+</html>

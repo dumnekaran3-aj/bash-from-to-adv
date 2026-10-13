@@ -8,7 +8,7 @@ sensitive_keys=("X-Powered-By" "Strict-Transport-Security" "X-Content-Type-Optio
 
 sensitive_keywords=("admin" "secreate" "API-key" "balance" "apikey")
 
-endpoint=("/api/config" "/api/health" "/api/users" "/api/dashboard" "api/user/profile/" "/api/posts" "/api/auth/me" "/api/comments" "/api/auth/signin" )
+endpoint=("admission_pdf.php?id=0" "admission_pdf." "admission_pdf.php?id=" "admission_pdf.php?id=0" "admission_pdf.php?id=1" "/api/config" "/api/health" "/api/users" "/api/dashboard" "api/user/profile/" "/api/posts" "/api/auth/me" "/api/comments" "/api/auth/signin" )
 
 chack_header(){
 local url=$1
