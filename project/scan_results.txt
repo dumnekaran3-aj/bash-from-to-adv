@@ -1,0 +1,16 @@
+ acess denied ...your not authorized
+ Idor possible in http://localhost:8000/api/test/v1/user/2
+------_----------
+leaked data .. {"success":true,"data":{"id":2,"name":"Rahul Sharma","email":"rahul1@nexorbite.com","role":"user","phone":"9123456782"}}
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ acess denied ...your not authorized
+ http://localhost:8000/api/test/v1/user/10 :: Not found status : 404
+ http://localhost:8000/api/test/v1/user/11 :: Not found status : 404
+ http://localhost:8000/api/test/v1/user/12 :: Not found status : 404
+ http://localhost:8000/api/test/v1/user/13 :: Not found status : 404
+ http://localhost:8000/api/test/v1/user/14 :: Not found status : 404

@@ -1,0 +1,1 @@
+{"success":true,"data":{"id":2,"name":"Rahul Sharma","email":"rahul1@nexorbite.com","role":"user","phone":"9123456782"}}

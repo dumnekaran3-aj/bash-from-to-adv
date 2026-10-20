@@ -1,10 +1,9 @@
 #!/bin/bash
 
 
-fake_header='{"alg":"none","typ":"JWT"}'
+fake_header='{"alg":"HS256","typ":"JWT"}'
 
-fake_payload='{"id":"1","role":"admin"}'
-
+fake_payload='{"id":"2","role":"admin"}'
 
 
 
