@@ -13,11 +13,13 @@ token=$1
 }
 
 header=$(echo -n "$token" | cut -d"." -f1)
+
 payload=$(echo -n "$token" | cut -d"." -f2)
 
 signature=$(echo -n "$token" | cut -d"." -f3)
 
 echo "header part :: $header"
+
 
 echo "payload part :: $payload"
 echo "signature part :: $signature"
@@ -42,9 +44,12 @@ read_payload
 
 
 
+
                read_sign(){
 
+
             sin_data=$(echo "$signature" | base64 -d 2>/dev/null | xxd -p)
+
             echo "$sig_data"
                    }
 
@@ -60,6 +65,7 @@ JWT_vulna(){
 read -p "enetr a target url :: " target_url
 
 local url=$1
+
 
 JWT=$(curl -s -o /dev/null -w "%{http_code}" "${url}")
 body=$(curl -s  "${url}")
@@ -90,13 +96,16 @@ echo "payload is :: $payload"
 echo -n "${header}.${payload}."
 
 echo ""
+
 }
 
 
 echo "1] decode token"
 echo "2] token vulna"
+
 echo "3] create fake token"
 echo "4] partionas of the token ex:header , payload , signature "
+
 read -p "enter what you want in the list (1,2,3,4)::" user_input
 
 calling(){
@@ -125,6 +134,7 @@ elif [ "$value" == "4" ]; then
 else
     
         read -p "enter what you want in the list (1,2,3,4): " new_input
+
         calling "$new_input"
 
 fi
