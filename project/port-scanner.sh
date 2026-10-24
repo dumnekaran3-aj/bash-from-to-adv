@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "enter a url :: " base_url
+read -p "enter a url (ex :: exmaple.com :: " base_url
 
 port() {
 
@@ -9,7 +9,12 @@ port() {
    
 
 
-    local clean_url=$(echo "$input_url" | sed -E 's|https?://||' | sed -E 's|/.*||')
+
+address=$(nslookup "$input_url"| awk '/^Address: / { print $2 }')
+
+
+echo "finded address :: $address"
+    local clean_url=$(echo "$address")
     
 
     local port=(8000 22 443 21 8080 27017 5432 1433 1521)
@@ -35,7 +40,14 @@ for  target_port in "${port[@]}"; do
 fi
 
 done
+
+
+data=$(nslookup "$address" | awk '/^Address: / { print $2 }' | grep -E '^[0-9.]+$')
+
+echo "finded data :: $data"
     }
 
 
 port "$base_url"
+
+
