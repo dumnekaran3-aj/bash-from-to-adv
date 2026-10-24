@@ -43,6 +43,7 @@ if echo "$response" | grep -qiE "error|not found|unauthorized|false"; then
         echo " Idor possible in $target"
 
 echo "------_----------"
+
 echo "leaked data .. $body"
 
 echo "$body" >> vulnerable_ids.txt
