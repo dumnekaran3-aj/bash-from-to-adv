@@ -1,0 +1,3 @@
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of test@nexorbite.com does not designate 1.2.3.4 as permitted sender) smtp.mailfrom=test@nexorbite.com;
+       dmarc=fail (p=NONE action=NONE) header.from=nexorbite.com;

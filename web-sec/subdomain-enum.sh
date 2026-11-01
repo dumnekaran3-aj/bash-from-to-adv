@@ -10,12 +10,16 @@ subdomine(){
 
 local url=$1
 
-for dom in "${wordlist[@]}"; do
+for dom in $(cat subdomine.txt);do
 
-res=$(dig +short +time=2 +tries=1 "$sub.$domain")
+res=$(dig +short +time=2 +tries=1 "$dom.$url")
 
-echo "$res"
-done >> subdomine.txt
+if [ -n "$res" ]; then
+    echo "FOUND: $dom.$url -> $res"
+fi
+
+
+done
 
 }
 
