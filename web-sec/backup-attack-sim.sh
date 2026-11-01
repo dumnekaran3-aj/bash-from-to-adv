@@ -5,29 +5,29 @@ target_dir="$HOME/backups"
 ls -la "$target_dir"
 
 
-for F in "$TARGET_DIR"/*; do
+for F in "$target_dir"/*; do
 
-    rm -f "$F"
+       rm -f "$F"
 
-if [ $? -eq 0 ]; then
-
-
-echo "ditroy file : $F"
-distro=$((distro+1))
+   if [ $? -eq 0 ]; then
 
 
-else
-
-echo "protected file $F"
-
-prot=$((prot+1))
+      echo "ditroy file : $F"
+      distro=$((distro+1))
 
 
-fi
+   else
+
+      echo "protected file $F"
+
+      prot=$((prot+1))
+
+
+   fi
 
 done
 
 echo "attack simulation complet $distro |0 destroyed, $prot protected"
-highlight=$(grep -i -qE "removerd | remove | delete")
+highlight=$(echo "$F" | grep -i -qE "removerd | remove | delete")
 
 echo "$highlight"
