@@ -1,0 +1,11 @@
+name : karan defender,
+age : 20,
+collage : vmc collage nanded,
+role : admin,
+skils : python,shell,bash,powershell,linux,security,network,malwere
+nickname : chokey
+phone : vivo y12
+sim : artl 4g
+number : 1234567890
+address :431603
+
