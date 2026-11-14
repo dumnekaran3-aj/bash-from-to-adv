@@ -1,2 +1,7 @@
-web-sec/venv/
+node_modules/
+.env
 *.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+mongo-data/
