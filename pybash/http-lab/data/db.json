@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1794730575177",
+      "username": "user1",
+      "email": "user1@test.com",
+      "password": "$2b$12$MTRl5P4YlQ4vSr9AJVP1qO1Mqi/jDvPFjpanY0Ls.n1F7GjS4Vg5O",
+      "createdAt": "2026-11-15T08:16:15.178Z"
+    },
+    {
+      "id": "1794730576643",
+      "username": "user2",
+      "email": "user2@test.com",
+      "password": "$2b$12$Aul/qP5/dz/lE0pDphgibeuswP55AskGySWXJzLWbGgP8NlOxpYTq",
+      "createdAt": "2026-11-15T08:16:16.644Z"
+    },
+    {
+      "id": "1794730577913",
+      "username": "user3",
+      "email": "user3@test.com",
+      "password": "$2b$12$3m2tPKHCOYqalmFf6742Ee0DVPegHt0ECfQuh.szq2VBSUyi55Jvi",
+      "createdAt": "2026-11-15T08:16:17.913Z"
+    },
+    {
+      "id": "1794730579195",
+      "username": "user4",
+      "email": "user4@test.com",
+      "password": "$2b$12$R5jIw2Fdt2fecFvgYoH74.qlG0wgcAfFEZKrB4QbDWWBN1M6bpNFy",
+      "createdAt": "2026-11-15T08:16:19.195Z"
+    },
+    {
+      "id": "1794730580469",
+      "username": "user5",
+      "email": "user5@test.com",
+      "password": "$2b$12$GEqsYSznzny3LfoAp1plHew/WppNHnxBKNTx1FgiiKYsHvGQx37UW",
+      "createdAt": "2026-11-15T08:16:20.470Z"
+    },
+    {
+      "id": "1794730644345",
+      "username": "user6",
+      "email": "user6@test.com",
+      "password": "$2b$12$nE2kZIRFylBdeWTjKl7ZBu/fG/0aHFq/B9QqW3ZuLNeJ/j3waqHnO",
+      "createdAt": "2026-11-15T08:17:24.345Z"
+    },
+    {
+      "id": "1794730645655",
+      "username": "user7",
+      "email": "user7@test.com",
+      "password": "$2b$12$m6zYcdgZdQmPRGjQhpAdvuV3Hzw3OROrVzznesUZ.fdpEKXNajiam",
+      "createdAt": "2026-11-15T08:17:25.655Z"
+    },
+    {
+      "id": "1794730647010",
+      "username": "user8",
+      "email": "user8@test.com",
+      "password": "$2b$12$AbVbQ.hUoduUAZ/z.vJfyey.ATbmzBCluJ9Hc0Rd8a.CVyUtY9Mzm",
+      "createdAt": "2026-11-15T08:17:27.010Z"
+    },
+    {
+      "id": "1794730648341",
+      "username": "user9",
+      "email": "user9@test.com",
+      "password": "$2b$12$nLCMvfzIkvZDCljL0/End.ZsHQdgItIe9Eq2xplrM/TJ1zuWmflCq",
+      "createdAt": "2026-11-15T08:17:28.341Z"
+    },
+    {
+      "id": "1794730649699",
+      "username": "user10",
+      "email": "user10@test.com",
+      "password": "$2b$12$sZwepHogYxO8CqE.j8Q.OubX44diI7N3aeohDUDZk8Bb2Rl3.usQ2",
+      "createdAt": "2026-11-15T08:17:29.699Z"
+    }
+  ]
+}
