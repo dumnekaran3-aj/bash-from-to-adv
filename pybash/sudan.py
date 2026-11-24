@@ -4,7 +4,7 @@ import shodan
 
 import subprocess
 
-api = shodan.Shodan("enter a  shodan ip")
+api = shodan.Shodan("U6tgBtRh2WGcGCT73nQOvdBXNzypmuBU")
 
 
 
