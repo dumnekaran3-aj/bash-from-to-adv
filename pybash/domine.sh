@@ -5,7 +5,7 @@ read -p "enter a domine :: " basedomine
 
 get_whois_profile() {
     local domain="$1"
-    whois "$domain" | grep -iE "Creation Date:|Registrar:|Name Server:|DNSSEC:"
+   whois "$domain" | grep -n "Domain Name:" | cut -d: -f1
 }
 
 
